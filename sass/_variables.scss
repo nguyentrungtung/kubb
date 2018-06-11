@@ -1,0 +1,38 @@
+/**
+ *
+ * font-all theme
+ *
+ */
+
+@font-face {
+    font-family: reklame;
+    src: url(../fonts/ReklameScript-Regular_DEMO.otf);
+}
+
+$font_lato:'Open Sans',
+sans-serif;
+$font_reklame:reklame;
+
+/**
+ *
+ * background theme
+ *
+ */
+
+$background_header_menu :#262626;
+$background_banenr: #2a2a2a;
+$background_footer: #2c2c2c;
+$background_application: #f8f8f8;
+$background_btn_active: #595959;
+$background_share: #313131;
+
+/**
+ *
+ * color theme
+ *
+ */
+
+$color_logo: #d9d9d9;
+$color_btn: #ff6760;
+$color_footer:#bebebe;
+$color_application :#616161;

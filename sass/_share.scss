@@ -1,0 +1,64 @@
+.share {
+    padding: 58px 0px;
+    height: 286px;
+    background: $background_share;
+    h4 {
+        margin-top: 0px;
+        color: #e0e0e0;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: $font-lato;
+        margin-bottom: 23px;
+    }
+    p {
+        font-family: $font-lato;
+        font-size: 20px;
+        font-weight: 100;
+        color: #bebebe;
+    }
+    &__address {
+        margin-bottom: 32px;
+        span {
+            color: #bebebe;
+            padding: 0 17px;
+            i {
+                color: #ff6760;
+                padding-right: 11px;
+            }
+        }
+    }
+    &__mxh {
+        i {
+            width: 30px;
+            height: 30px;
+            padding-top: 8px;
+            border-radius: 50%;
+        }
+        &__rss {
+            background: #f3b25b;
+            color: #ffffff;
+        }
+        &__facebook {
+            background: #5883c0;
+            color: #ffffff;
+        }
+        &__twitter {
+            background: #63bee0;
+            color: #ffffff;
+        }
+        &__pinterest {
+            background: #d35051;
+            color: #ffffff;
+        }
+        &__google {
+            background: #e9a0c4;
+            color: #ffffff;
+        }
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .share {
+        height: 340px;
+    }
+}

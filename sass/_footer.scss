@@ -1,0 +1,11 @@
+.footer {
+    height: 82px;
+    background: $background_footer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // flexbox get height
+    &__text {
+        color: $color_footer;
+    }
+}

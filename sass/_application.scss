@@ -1,0 +1,30 @@
+.application {
+    height: 369px;
+    background: $background_application;
+    color: $color_application;
+    font-family: $font_lato;
+    margin-bottom: 60px;
+    &__item {
+        padding: 93px 20px;
+    }
+    &__text-box {
+        h4 {
+            font-weight: bold;
+            // margin-bottom: 15px;
+        }
+    }
+    &__img {
+        img {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .application {
+        height: auto;
+        &__item {
+            padding: 33px 18px;
+        }
+    }
+}
